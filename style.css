@@ -1,0 +1,40 @@
+
+.main {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+}
+a { 
+    display: inline-block;
+    width: 200px;
+    text-decoration: none;
+    color: #666;
+    font-size: 22px;
+    /* background-color: #ccc; */
+    text-align: center;
+    line-height: 50px;
+
+}
+a.active {
+    background: #FFCC00;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.content {
+    width: 800px;
+    height: 450px;
+    cursor: pointer;
+}
+.bg0 {
+    background: url(./img/1.jpg) 100%;
+}
+.bg1 {
+    background: url(./img/5.jpg) 100%;
+}
+.bg2 {
+    background: url(./img/3.jpg) 100%;
+}
+.bg3 {
+    background: url(./img/4.jpg) 100%;
+}
